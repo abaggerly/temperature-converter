@@ -15,11 +15,11 @@ function convertToCelcius(fTemp) {
    function describeTemperature(celsiusTemp){
     if(celsiusTemp >= 40){
         return "Very Hot";
-    }else if(celsiusTemp < 40 && celsiusTemp > 30){
+    }else if(celsiusTemp > 30){
     return "hot";
-    }else if(celsiusTemp < 30 && celsiusTemp > 20){
+    }else if(celsiusTemp > 20){
     return "warm";
-    }else if(celsiusTemp < 20 && celsiusTemp > 10){
+    }else if(celsiusTemp > 10){
     return "cold";
     }else{
     return "very cold"
